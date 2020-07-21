@@ -63,6 +63,8 @@ def runner
   deal_card
   display_card_total(number)
   prompt_user
+  until total <= 21
+  end 
 end
     
 deal_card 
