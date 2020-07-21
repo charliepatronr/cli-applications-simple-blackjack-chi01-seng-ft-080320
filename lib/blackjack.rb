@@ -32,7 +32,7 @@ def initial_round
   sum
 end
 
-def hit (number)
+def hit?(number)
   total = number
   prompt_user
   decision = get_user_input
