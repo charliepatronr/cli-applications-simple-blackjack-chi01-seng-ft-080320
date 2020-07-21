@@ -61,6 +61,7 @@ end
 def runner
   welcome
   deal_card
+  display_card_total(number)
 end
     
 deal_card 
