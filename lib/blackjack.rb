@@ -61,6 +61,7 @@ end
 def runner
   welcome
   initial_roun
+  total = 0
   until total <= 21
   total = hit?
   display_card_total
