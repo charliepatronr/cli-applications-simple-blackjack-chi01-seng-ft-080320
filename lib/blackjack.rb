@@ -45,7 +45,6 @@ def hit?(number)
   if(decision != 'h' && decision != 's')
     invalid_command
     prompt_user
-    decision = get_user_input
   end 
   total
 end
