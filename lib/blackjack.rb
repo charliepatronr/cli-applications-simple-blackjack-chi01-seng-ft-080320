@@ -47,6 +47,7 @@ def hit?(number)
     prompt_user
     decision = get_user_input
   end 
+  total
 end
 
 def invalid_command
