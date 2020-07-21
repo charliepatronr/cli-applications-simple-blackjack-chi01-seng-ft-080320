@@ -60,6 +60,7 @@ end
 
 def runner
   welcome
+  deal_card
 end
     
 deal_card 
