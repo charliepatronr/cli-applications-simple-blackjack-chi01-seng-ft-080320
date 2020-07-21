@@ -60,10 +60,9 @@ end
 
 def runner
   welcome
-  deal_card
-  display_card_total(number)
   prompt_user
   get_user_input
+  initial_round
   until total <= 21
   
   end 
