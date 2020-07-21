@@ -64,6 +64,7 @@ def runner
   get_user_input
   initial_round
   until total <= 21
+  hit?
   
   end 
 end
