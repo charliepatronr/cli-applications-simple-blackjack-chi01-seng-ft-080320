@@ -44,6 +44,7 @@ def hit?(number)
     invalid_command
     prompt_user
   end 
+  binding.pry
 end
 
 def invalid_command
