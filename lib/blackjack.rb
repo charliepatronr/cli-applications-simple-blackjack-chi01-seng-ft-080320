@@ -41,6 +41,7 @@ def hit?(number)
   if(decision == 'h')
     new_card= deal_card
     total += new_card
+    binding.pry
   end 
   if(decision != 'h' && decision != 's')
     invalid_command
