@@ -60,8 +60,6 @@ end
 
 def runner
   welcome
-  prompt_user
-  get_user_input
   initial_round
   until total <= 21
   hit?
@@ -69,4 +67,3 @@ def runner
 end_game
 end
     
-deal_card 
