@@ -60,7 +60,7 @@ end
 
 def runner
   welcome
-  initial_roun
+  initial_round
   total = 0
   until total <= 21
   total = hit?
